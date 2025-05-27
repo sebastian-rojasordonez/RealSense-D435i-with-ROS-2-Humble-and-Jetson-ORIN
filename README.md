@@ -1,4 +1,4 @@
-# RealSense D435i with ROS 2 Humble - Complete Setup Guide
+# RealSense D435i with ROS 2 Humble and Jetson Orin Setup Guide
 
 Welcome! 🎉 This guide walks you through installing and integrating the Intel RealSense D435i camera with ROS 2 Humble on Ubuntu 22.04. This includes setting up the SDK, verifying with `realsense-viewer`, and running the camera node with ROS 2. Perfect for robotics projects, perception, and your first open source contribution!
 
@@ -155,22 +155,6 @@ Should include:
 
 ---
 
-## 📄 Files to include in your GitHub repo
-
-- `README.md` → This guide
-- `.gitignore`:
-```
-build/
-install/
-log/
-*.pyc
-*.swp
-.realsense*
-```
-- `LICENSE` (MIT recommended)
-
----
-
 ## 🧠 Tips
 
 - Always check USB 3 is used (blue port)
@@ -185,7 +169,7 @@ colcon build --symlink-install
 
 ## 📬 Credits
 
-Maintained by [Your Name]. Inspired by community struggles to get RealSense D435i working reliably in ROS 2.
+Maintained by Sebastian Rojas-Ordoñez. Inspired by community struggles to get RealSense D435i working reliably in ROS 2.
 
 Contributions and issues welcome!
 
