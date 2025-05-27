@@ -49,3 +49,31 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Realsense viewer config
+.realsense*
+
+# VSCode and JetBrains IDE settings (optional)
+.vscode/
+.idea/
+
+# System-specific
+.DS_Store
+Thumbs.db
